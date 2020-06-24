@@ -1,0 +1,6 @@
+---
+hosts: localhost
+vars_file: installed-apps.yaml
+roles:
+    - geerlingguy.homebrew
+    - geerlingguy.mas
