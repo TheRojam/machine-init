@@ -10,3 +10,8 @@ mas_installed_apps:
 - { id: 406825478, name: "Telephone (1.4.6)" }
 - { id: 1287752517, name: "Alto's Adventure (1.0.3)" }
 - { id: 1037126344, name: "Apple Configurator d (2.12.1)" }
+homebrew_installed_packages:
+- ssh-copy-id
+- pv
+- { name: vim, install_options: "with-luajit,override-system-vi"  }
+
